@@ -36,6 +36,8 @@ public class Main {
        m--;
      }
     System.out.println();
+
+    
       n=0;
       for(i=0;i<6;i++){
         for(j=6;j>n;j--){
@@ -45,7 +47,28 @@ public class Main {
       System.out.println();
       n++;
       }
+    System.out.println();
+    m=0;
+    n=0;
+    
+    for(i=0;i<6;i++){
+       for(j=0;j<n;j++){
+         System.out.print(b);
 
+       }
+      for(j=6;j>n;j--){
+       System.out.print(a);
+
+      }
+       System.out.println();
+       n++;
+     }
+
+
+
+
+
+    
 
 
     
