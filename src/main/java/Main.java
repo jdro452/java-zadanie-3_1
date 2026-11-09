@@ -35,7 +35,16 @@ public class Main {
        n++;
        m--;
      }
+    System.out.println();
+      n=0;
+      for(i=0;i<6;i++){
+        for(j=6;j>n;j--){
+         System.out.print(a);
 
+        }
+      System.out.println();
+      n++;
+      }
 
 
 
