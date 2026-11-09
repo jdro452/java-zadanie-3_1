@@ -8,6 +8,8 @@ public class Main {
     int i=0;
     int j=0;
     int n=1;
+    int k=0;
+    char test='#';
      char a='*';
      for(i=0;i<6;i++){
        for(j=0;j<n;j++){
@@ -17,7 +19,22 @@ public class Main {
        System.out.println();
        n++;
      }
-
+    n=1;
+     String b=" ";
+     int m =6;
+     for(i=0;i<7;i++){
+       for(j=0;j<m;j++){
+         System.out.print(b);
+        
+      n++;
+       }
+       for(j=0;j<i;j++){
+         System.out.print(a);
+       }
+       System.out.println();
+       n++;
+       m--;
+     }
 
 
 
